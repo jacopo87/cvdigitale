@@ -1,0 +1,215 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    background-image: url(immagini/sfondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+section p {
+    max-width: 800px;
+    text-align: justify;
+    padding: 0 20px;
+    line-height: 2;
+    color: rgb(250, 244, 244);
+}
+
+.principale h1 {
+    font: bold 60px 'Paytone One', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(12, 103, 169);
+    text-shadow: -1px -1px 0 rgb(250, 250, 250), 1px -1px 0 #000, 1px 1px 0 #000;
+}
+
+.principale h3 {
+    font: bold 28px 'Paytone One', sans-serif;
+    margin-bottom: 40px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 1000px){
+    section{
+        padding: 100px 50px
+    }
+}
+
+@media (max-width: 600px){
+    section{
+        padding: 80px 30px
+    }
+}
+
+nav {
+    list-style: none;
+    position: fixed;
+}
+
+.menu {
+    padding: 10px 0;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 400px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold 40px;
+
+}
+
+.menu:hover {
+    color: rgb(12, 117, 159);
+    background-color: whitesmoke;
+    transition: 0.5s;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+
+}
+
+header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    color: rgb(255, 249, 249);
+    padding: 35px 100px 0;
+    font-weight: bold;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav li {
+    margin: 0 15px;
+}
+
+header nav li :first-child {
+    margin-left: 0;
+}
+
+header nav li :last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 1000px){
+    header{
+        padding: 20px 50px
+    }
+}
+@media (max-width: 600px){
+    header{
+        flex-direction: column;
+    }
+}
+
+.principale {
+    position: relative;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+
+
+}
+
+@media (max-width: 800px){
+    .principale{
+       min-height: 600px;
+    }
+    .principale h1{
+        font-size: 48px;
+    }
+}
+
+
+.titolo {
+    font: bold 60px 'Paytone One', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(12, 103, 169);
+    text-shadow: -1px -1px 0 rgb(250, 250, 250), 1px -1px 0 #000, 1px 1px 0 #000;
+
+}
+
+
+ul.portfolioimg {
+    width: 100%;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 600px;
+    font-family: 'Raleway';
+
+}
+
+
+ul {
+    list-style: none;
+
+}
+
+.contatti ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+
+}
+
+form {
+    color: whitesmoke;
+
+}
+
+h4,
+h5,
+h6 {
+    font: 40px 'Fredoka One', open sans;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(148, 171, 3);
+    text-shadow: -1px -1px 0 rgb(250, 250, 250), 1px -1px 0 #000, 1px 1px 0 #000;
+}
+
+.tabella {
+    color: whitesmoke;
+
+}
